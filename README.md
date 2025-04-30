@@ -21,7 +21,7 @@ Each registered user can manage their own cards across 4 lists: `ToDo`, `In Prog
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/durjaygp/laravel-todo-app
+git clone https://github.com/durjaygp/laravel-todo-app.git
 cd laravel-todo-app
 ```
 
@@ -104,18 +104,6 @@ Visit: [http://127.0.0.1:8000/](http://127.0.0.1:8000/)
 ---
 
 ## Notes
-- Cards are **user-specific**. Each user can only see their own cards.
 - Bootstrap is used for styling.
 - JavaScript handles drag & drop and inline editing.
-
 ---
-
-## Future Improvements (Optional 🚀)
-- Add **due dates** and **labels**
-- Add **collaboration** (assign cards to multiple users)
-- Add **activity log** (card moved, edited, deleted)
-
----
-
-## Credits
-Built with ❤️ using Laravel 11 and Bootstrap 5.
