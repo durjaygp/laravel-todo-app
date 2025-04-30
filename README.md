@@ -9,7 +9,7 @@ Each registered user can manage their own cards across 4 lists: `ToDo`, `In Prog
 ## Features
 - ✅ Laravel Breeze Authentication (Login, Register)
 - ✅ 4 Task Lists (ToDo, In Progress, Testing, Done)
-- ✅ Create cards (tasks) — only visible to the card owner
+- ✅ Create cards (tasks) — visible to all user
 - ✅ Drag and drop cards between lists
 - ✅ Edit card titles by double-clicking
 - ✅ Delete cards
