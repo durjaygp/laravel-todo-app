@@ -1,5 +1,5 @@
 @php
-    $cards = \App\Models\Card::all();
+    $cards = \App\Models\Card::where('user_id',auth()->user()->id)->get();
 @endphp
 
 <x-app-layout>

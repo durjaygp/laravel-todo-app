@@ -21,7 +21,7 @@ Route::middleware('auth')->group(function () {
     Route::patch('/cards/{card}/status', [CardController::class, 'updateStatus'])->name('cards.updateStatus');
     Route::delete('/cards/{card}', [CardController::class, 'destroy'])->name('cards.destroy');
 
-    Route::patch('/cards/{card}/title', [\App\Http\Controllers\CardController::class, 'updateTitle']);
+    Route::patch('/cards/{card}/title', [CardController::class, 'updateTitle']);
 
 });
 
